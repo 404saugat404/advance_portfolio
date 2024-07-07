@@ -12,7 +12,7 @@
 
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Saugat Thapa</div>
+      <div class="logo">Saugat Thapa Chhetri</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -39,11 +39,95 @@
       </div>
     </nav>
 
-
     <section id="profile">
-      <div class=" section_pic-container">
-        <img src="./assects/profile-pic.png" alt="Saugat Thapa Profile Picture">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile-pic.png"
+          alt="Saugat Thapa Profile Picture"
+        />
       </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, my name is</p>
+        <h1 class="title">Saugat Thapa </h1>
+        <p class="section__text__p2">AI/ML Enthusiast</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/saugat_thapa.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/saugat-thapa-chhetri/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/404saugat404'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know Me</p>
+
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Internship in Python and machine learning at AI startup, Inspiring Lab<br />Enrolled in Fusemachine AI fellowship</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor in Computer Engineering<br />(BCT)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am Saugat Thapa, a Computer Engineering graduate from the National College of Engineering (NCE). 
+              My academic journey began at Sainik Aawasiya Maha Vidhyalaya in Surkhet and continued through high school at the National School of Science and Technology (NIST).
+               My professional experience includes an internship in AI and Machine Learning at Inspiring Lab, an innovative AI startup.
+                Outside the realm of programming, I am passionate about hiking, videography, editing, and photography. These interests allow me to explore the world from different perspectives and capture its beauty through my lens. 
+                Combining my technical skills with my creative hobbies, I strive to bring a unique and holistic approach to everything I do.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <script src="script.js"></script>
   </body>
